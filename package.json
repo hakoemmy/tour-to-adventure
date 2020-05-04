@@ -4,9 +4,9 @@
   "description": "Adventurous people have a clue about what's happening around the globe",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/hakoemmy/tour-to-adventure.git"
   },
